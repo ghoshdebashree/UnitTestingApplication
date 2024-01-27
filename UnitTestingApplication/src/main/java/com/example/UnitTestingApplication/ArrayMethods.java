@@ -20,8 +20,13 @@ public class ArrayMethods {
         return found;
     }
     public void printArray(int[] arr, int index){
-        for(Integer i: arr){
+        //for(Integer i: arr){
             System.out.println(arr[index]);
-        }
+        //}
+    }
+    //unimplemented method
+    int[] sortArray(int[] numbers) {
+        //implement sort
+        return new int[] {};
     }
 }
